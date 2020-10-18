@@ -6,12 +6,11 @@
   * [Technical Aspect](#technical-aspect)
   * [Installation](#installation)
   * [Run](#run)
+  * [Project Evaluation](#project-evaluation)
   * [Technologies Used](#technologies-used)
-  * [Team](#team)
   * [License](#license)
-  * [Resources](#resources)
   
-
+  
 ## Overview
 Sentiment analysis refers to the class of computational and natural language processing based techniques used to identify, extract or characterize subjective information, such as opinions, expressed in a given piece of text. The main purpose of sentiment analysis is to classify a writer’s attitude towards various topics into positive, negative or neutral categories.Sentiment analysis has gain much attention in recent years. In this paper, we aim to tackle the problem of sentiment polarity categorization, which is one of the fundamental problems of sentiment analysis. A general process for sentiment polarity categorization is proposed with detailed process descriptions. Data used in this study are online product reviews collected from amazon. Experiments for both sentence-level categorization and review-level categorization are performed with promising outcomes. At last, we also give insight into our future work on sentiment analysis.
 
@@ -36,7 +35,7 @@ Scrape the customer reviews for 10 mobile phones listed on Amazon and perform Se
 
 
 ## Installation
-Creating a project environment:
+1. Creating a project environment:
 ```
 python -m venv project_env
 ```
@@ -44,13 +43,15 @@ Activating the enviroment:
 ```
 project_env\Scripts\activate.bat
 ```
-The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+
+
+2. The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 ```
 pip install -r requirements.txt
 ```
 
 
-Installing Scrapy :
+3. Installing Scrapy :
 
 We will start by installing Scrapy in our system. There can be two cases here though. If you are using conda, then you can install scrapy from the conda-forge using the following command:
 ```
@@ -127,6 +128,8 @@ urllib3          1.25.10
 w3lib            1.22.0
 zope.interface   5.1.2
 ```
+
+4. Save amazon_reviews.py amazon_reviews_scraping\amazon_reviews_scraping\spiders in order to scrape data from the spider we created above.
 
 ## Run
 
