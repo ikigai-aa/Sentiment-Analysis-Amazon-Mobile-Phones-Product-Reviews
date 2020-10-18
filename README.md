@@ -12,7 +12,7 @@
   
   
 ## Overview
-Sentiment analysis refers to the class of computational and natural language processing based techniques used to identify, extract or characterize subjective information, such as opinions, expressed in a given piece of text. The main purpose of sentiment analysis is to classify a writer’s attitude towards various topics into positive, negative or neutral categories.Sentiment analysis has gain much attention in recent years. In this paper, we aim to tackle the problem of sentiment polarity categorization, which is one of the fundamental problems of sentiment analysis. A general process for sentiment polarity categorization is proposed with detailed process descriptions. Data used in this study are online product reviews collected from amazon. Experiments for both sentence-level categorization and review-level categorization are performed with promising outcomes. At last, we also give insight into our future work on sentiment analysis.
+Sentiment analysis refers to the class of computational and natural language processing based techniques used to identify, extract or characterize subjective information, such as opinions, expressed in a given piece of text. The main purpose of sentiment analysis is to classify a writer’s attitude towards various topics into positive, negative or neutral categories.Sentiment analysis has gain much attention in recent years. In this assignment, we aim to tackle the problem of sentiment polarity categorization, which is one of the fundamental problems of sentiment analysis. A general process for sentiment polarity categorization is proposed with detailed process descriptions. Data used in this study are online product reviews collected from amazon. Experiments for both sentence-level categorization and review-level categorization are performed with promising outcomes. At last, we also give insight into our future work on sentiment analysis.
 
 
 ## Objective
@@ -186,8 +186,6 @@ Confusion Matrix :
  ## Technologies Used
  
  ![](https://forthebadge.com/images/badges/made-with-python.svg)
-
-[<img target="_blank" src="https://keras.io/img/logo.png" width=200>](https://keras.io/) 
 
 [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=170>](https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png)
 
