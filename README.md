@@ -157,3 +157,41 @@ scrapy runspider amazon_reviews_scraping/amazon_reviews_scraping/spiders/amazon_
 
 ### > Step-4
 Open Jupyter Notebook and run 'Sentiment Analysis- Amazon Mobile Phone Products Reviews.ipynb' in order to train your custom dataset within your loacl machine and preprocess the dataset followed by Modeling meanwhile.
+
+
+## Project Evaluation
+
+Here's the best results we found from the various evaluation:
+```
+Accuracy on validation set: 0.9319
+
+AUC score : 0.9256
+
+Classification report : 
+               precision    recall  f1-score   support
+
+           0       0.94      0.89      0.92       116
+           1       0.92      0.96      0.94       163
+
+    accuracy                           0.93       279
+   macro avg       0.93      0.93      0.93       279
+weighted avg       0.93      0.93      0.93       279
+
+
+Confusion Matrix : 
+ [[103  13]
+ [  6 157]]
+```
+ 
+ ## Technologies Used
+ 
+ ![](https://forthebadge.com/images/badges/made-with-python.svg)
+
+[<img target="_blank" src="https://keras.io/img/logo.png" width=200>](https://keras.io/) 
+
+[<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=170>](https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png)
+
+[<img target="_blank" src="https://scrapy.org/img/scrapylogo.png" width=280>](https://scrapy.org/img/scrapylogo.png) 
+
+[<img target="_blank" src="https://jupyter.org/assets/nav_logo.svg" width=200>](https://jupyter.org/assets/nav_logo.svg) 
+ 
