@@ -26,14 +26,6 @@ Scrape the customer reviews for 10 mobile phones listed on Amazon and perform Se
 3. Using the model you developed evaluate the sentiment of the customer reviews scraped by you.
 
 
-## Project Deliverables:
-1. Send us a copy of the code used to scrape the customer reviews. Your case study will be evaluated on how fast your program scrapes the reviews
-2. Send us the code of your Sentiment Analysis model along with EDA.
-3. Submit an excel sheet with the names of all the mobile phones along with the Fine-grained sentiment analysis score of the customer reviews for all the mobile phones
-4. Submit data visualizations to represent your sentiment analysis results.
-5. Please make sure your code is well commented.
-
-
 ## Installation
 1. Creating a project environment:
 ```
